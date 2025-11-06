@@ -1,12 +1,12 @@
-# 🚀 SEO Automation Framework Documentation
+# 🚀 Automation Framework Documentation
 
-Welcome to the **SEO Automation Framework Docs** repository — a living collection of our **patterns, standards, and reusable assets** for building and governing automation at scale.  
+Welcome to the **Automation Framework Docs** repository — a living collection of our **patterns, standards, and reusable assets** for building and governing automation at scale.  
 This repository represents the technical implementation layer of our broader automation strategy and aligns directly with our SharePoint “Automation Hub” pages for strategic and approval documentation.
 
 ## Quick Links
 
-- [Document Directory](#documents)
-- [SEO Leaderships Strategic Phases](#strategic-phases)
+- [How to use this repo](#how-to-use-this-repo)
+- [Document Topics](#topics)
 
 ---
 
@@ -29,42 +29,86 @@ Together, these artifacts support our organizational goals to:
 
 ---
 
-## Strategic Phases
-
-All automation initiatives and documentation follow the **SEO four-phase implementation model**:
-
-| Phase | Description | Example Deliverables |
-|------------|---------------|----------------------|
-| **Discovery** | Identify automation candidates, collect data, assess feasibility. | Intake Form, Process Map, Discovery Notes |
-| **Pilot** | Build prototype workflows, validate standards, measure initial impact. | Pilot Playbook, CI Config, Test Report |
-| **Scale** | Extend automation across teams, integrate with governance and monitoring. | Reusable Roles, Shared Collections, AAP Workflow Templates |
-| **Institutionalize** | Embed automation in day-to-day operations and maintenance. | Governance Updates, Training Docs, Audit Reports |
+## How to Use This Repo
 
 ---
-
-## How to Use This Repo
 
 | Area | Description |
 |------|--------------|
-| **Governance Docs** | Defines AAP policy, RBAC models, and compliance standards. |
-| **Developer Guidance** | Sets code style, documentation structure, and branching strategy. |
-| **Runbooks** | Step-by-step operational automation guides (linked to Teams/Server Ops). |
-| **Reference & Troubleshooting** | Technical patterns and configuration guides. |
-| **Strategy & Intake** | Templates for proposing and tracking new automation work. |
+| **[Governance Docs](#governance-docs)** | Defines AAP policy, RBAC models, and compliance standards. |
+| **[Developer Guidance](#developer-guidance)** | Sets code style, documentation structure, and branching strategy. |
+| **[Runbooks](#runbooks)** | Step-by-step operational automation guides (linked to Teams/Server Ops). |
+| **[Reference & Troubleshooting](#reference--troubleshooting)** | Technical patterns and configuration guides. |
+| **[Strategy & Intake](#strategy--intake)** | Templates for proposing and tracking new automation work. |
 
+**Document Flexibility:**
 > All Markdown documents can be rendered to **HTML, PDF, or DOCX** using manually via VSC or via Pandoc/MkDocs pipelines in the future.
+
+**SharePoint Integration:**  
+
+> The SharePoint “Automation Hub” hosts strategic, approval, and intake documents — each linking back here for technical implementation details.
 
 ---
 
-## Documents
+## Topics
 
-| Doc Topic | Description | |
-|---------------|------------------------|---------------------------------------------|
-| Code Style     | [`code-style-guide.md`](docs/02-Developer-Guidance/code-style-guide.md) | YAML, naming, linting, and documentation standards. |
-| Documentation  | [`documentation-structure-guide.md`](docs/02-Developer-Guidance/documentation-structure-guide.md)       | Defines folder layout and authoring conventions.    |
-| Branching      | [`branching-strategy-guide.md`](docs/02-Developer-Guidance/branching-strategy-guide.md)                 | Git strategy and CRQ linkage process.               |
-| Templates      | [`workflow-and-job-template-naming.md`](docs/02-Developer-Guidance/workflow-and-job-template-naming.md) | AAP job and workflow naming standards.              |
-| Change Control | [`crq-and-promotion-checklist.md`](docs/02-Developer-Guidance/crq-and-promotion-checklist.md)           | Required steps for production promotion.            |
+---
+
+### Governance Docs
+
+---
+
+### Developer Guidance
+
+---
+
+#### Code Style
+
+- [`code-style-guide.md`](docs/02-Developer-Guidance/code-style-guide.md)
+  - YAML, naming, linting, and documentation standards.
+
+---
+
+#### Documentation
+
+- [`documentation-structure-guide.md`](docs/02-Developer-Guidance/documentation-structure-guide.md)
+  - Defines folder layout and authoring conventions.
+
+---
+
+#### Branching
+
+- [`branching-strategy-guide.md`](docs/02-Developer-Guidance/branching-strategy-guide.md)
+  - Git strategy and CRQ linkage process.
+
+---
+
+#### Templates
+
+- [`workflow-and-job-template-naming.md`](docs/02-Developer-Guidance/workflow-and-job-template-naming.md)
+  - AAP job and workflow naming standards.
+
+---
+
+#### Change Control
+
+- [`crq-and-promotion-checklist.md`](docs/02-Developer-Guidance/crq-and-promotion-checklist.md)
+  - Required steps for production promotion.
+
+---
+
+#### Runbooks
+
+---
+
+#### Reference & Troubleshooting
+
+---
+
+#### Strategy & Intake
+
+- [`automation-strategy.md`](docs/05-Strategy-Intake/automation-strategy.md)
+  - Resources around overall strategy and automation development intake.
 
 ---
 
@@ -83,10 +127,6 @@ examples/ # Playbooks, CI snippets, and EE build templates
 diagrams/ # Mermaid diagrams and sequence flows
 site/ # Generated output for MkDocs or SharePoint publishing
 ```
-
-**SharePoint Integration:**  
-
-> The SharePoint “Automation Hub” hosts strategic, approval, and intake documents — each linking back here for technical implementation details.
 
 ---
 
