@@ -10,7 +10,7 @@ This repository represents the technical implementation layer of our broader aut
 
 ---
 
-## 📘 Purpose
+## Purpose
 
 This repository serves as the **single source of truth** for:
 
