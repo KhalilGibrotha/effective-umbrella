@@ -38,13 +38,16 @@ Define consistent conventions for authoring, testing, and reviewing Ansible cont
 - Always include `---` at top of YAML files.
 - Limit line length to 120 characters.
 
-## Required Playbook Header
+  ## Required Playbook Header
+> Note: For frontmatter to work `---` must be the first line of the file.
 
 ```yaml
+---
 # Authors: {{ author_name }}
 # Reviewed By: {{ reviewer_name }}
 # Last Reviewed: YYYY-MM-DD
 # Summary: Brief purpose and context
+---
 ```
 
 ## Testing & Linting
