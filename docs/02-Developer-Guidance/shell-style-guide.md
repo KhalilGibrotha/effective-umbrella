@@ -1,7 +1,7 @@
 ---
 title: "Shell Script Style Guide"
 status: "Draft"
-owner: "Platform Engineering"
+owner: "Server Engineering and Operations"
 last_updated: 2025-11-06
 version: "1.0"
 ---
